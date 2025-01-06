@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exemplo-etl"
+version = "0.1.0"
+description = ""
+authors = ["jonhnatta <jonhnatta.santos@gmail.comclear>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandera = "^0.22.1"
+pandas = "^2.2.3"
+pyarrow = "^18.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
